@@ -34,7 +34,7 @@ const routes = {
   }
 };
 
-const clean = () => del(['build/', './publish']);
+const clean = () => del(['build/', '.publish']);
 const pug = () =>
   gulp
     .src(routes.pug.src)
